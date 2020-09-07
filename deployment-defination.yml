@@ -5,7 +5,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    name: spring-arguments-commands-example
+    matchLabels:      
+      name: spring-arguments-commands-example
   template:
     metadata:
       labels:
