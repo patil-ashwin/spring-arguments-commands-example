@@ -16,6 +16,6 @@ spec:
         - name: spring-arguments-commands-example
           image: patilashwin/spring-arguments-commands-example:1.0
           command:
-            - "sleep"
+            - ["sleep"]
           args:
-            - "10"
+            - ["20"]
